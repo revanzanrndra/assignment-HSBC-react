@@ -1,0 +1,29 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(to right, #00AAFF, #00FF6C)
+}
+
+.temperature-converter-grid {
+    justify-content: center;
+    padding: 20px;
+    background-color: aliceblue;
+    max-width: 350px;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: repeat(2, 6rem);
+    row-gap: 6px;
+    column-gap: 8px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+input {
+    background-color: white;
+    border-width: 1px;
+    border-radius: 2px;
+    width: 150px;
+}
